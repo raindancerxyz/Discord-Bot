@@ -1,0 +1,39 @@
+1672712155700	geckodriver	INFO	Listening on 127.0.0.1:52894
+1672712158750	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52895" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\chads\\AppData\\Local\\Temp\\rust_mozprofileoSopei"
+1672712159203	Marionette	INFO	Marionette enabled
+1672712159211	Marionette	INFO	Listening on port 52904
+Read port: 52904
+WebDriver BiDi listening on ws://127.0.0.1:52895
+1672712159384	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chads\\AppData\\Local\\Temp\\rust_mozprofileoSopei\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52895/devtools/browser/0205a7c2-bca4-4646-93b8-0f6f1916483a
+[Child 7560, MediaDecoderStateMachine #1] WARNING: Decoder=23647cd3f00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 7560, MediaDecoderStateMachine #1] WARNING: Decoder=23647cd3f00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 7560, MediaDecoderStateMachine #1] WARNING: Decoder=2365230ba00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 7560, MediaDecoderStateMachine #1] WARNING: Decoder=2365230ba00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript warning: https://717786-tags.mmi360.net/mmi-zip.js?cust=gm&agency=amnet&type=js&plat=CM360&mode=mon&advid=3876774&siteid=5071708&cmpnid=28953064&pcmtid=353093378&crtvid=182685174&rndnum=349552981&site=N8334.2382313DOUBLECLICKBIDMANAG&adid=545253271&aucid=ABAjH0gnTMKhnBvwIuU1I_Biupzd&exch=1&sellid=37586632527 line 1 > eval line 1 > eval, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 6513 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 6643 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 4434 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672712221595	Marionette	INFO	Stopped listening on port 52904
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1672712253453	geckodriver	INFO	Listening on 127.0.0.1:58847
+1672712256494	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58848" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\chads\\AppData\\Local\\Temp\\rust_mozprofilez6sxUY"
+1672712256888	Marionette	INFO	Marionette enabled
+1672712256894	Marionette	INFO	Listening on port 58857
+Read port: 58857
+WebDriver BiDi listening on ws://127.0.0.1:58848
+1672712257029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chads\\AppData\\Local\\Temp\\rust_mozprofilez6sxUY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58848/devtools/browser/dcf7eb38-63b3-4c9f-aa0c-c63df3743d23
+[Child 15948, MediaDecoderStateMachine #1] WARNING: Decoder=20c9ad44800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 15948, MediaDecoderStateMachine #1] WARNING: Decoder=20c9ad44800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 15948, MediaDecoderStateMachine #1] WARNING: Decoder=20c9bd8c800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 15948, MediaDecoderStateMachine #1] WARNING: Decoder=20c9bd8c800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1672712265385	Marionette	INFO	Stopped listening on port 58857
+JavaScript error: resource://services-settings/Utils.jsm, line 240: TypeError: NetworkError: Network request failed
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1106: Error: Sqlite.sys.mjs has been shutdown. Cannot open connection to: C:\Users\chads\AppData\Local\Temp\rust_mozprofilez6sxUY\protections.sqlite
