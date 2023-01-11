@@ -4,6 +4,10 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
+intents = discord.Intents.default()
+intents.message_content = True
+client = discord.Client(intents=intents)
+
 async def send_message(message, user_message, is_private):
     try:
         response = responses.get_response(user_message)
@@ -15,9 +19,6 @@ async def send_message(message, user_message, is_private):
 def run_discord_bot():
     #token is hidden for security purposes
     insert_token = os.environ['TOKEN']
-    intents = discord.Intents.default()
-    intents.message_content = True
-    client = discord.Client(intents=intents)
 
     @client.event
     async def on_ready():
@@ -34,10 +35,13 @@ def run_discord_bot():
 
         print(f'{username} said: "{user_message}" ({channel})')
 
-        if user_message[0] == '?':
+        if user_message[0] != '!':
+            return
+        
+        if user_message[0] == '?': #Fix to allow private messaging, not working as intended
             user_message = user_message[1:] 
             await send_message(message, user_message, is_private=True)
         else:
             await send_message(message, user_message, is_private=False)
 
-    client.run(insert_token)
+    client.run(insert_token) 
